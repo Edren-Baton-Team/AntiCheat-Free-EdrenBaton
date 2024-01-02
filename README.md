@@ -1,3 +1,4 @@
+[![Downloads](https://img.shields.io/github/downloads/Edren-Baton-Team/AntiCheat-Free-EdrenBaton/total?color=brown&label=Downloads&style=for-the-badge)](https://github.com/Edren-Baton-Team/AntiCheat-Free-EdrenBaton/releases)
 # AC Edren Baton FREE VERSION
 Free anti-cheat for everyone
 
