@@ -9,7 +9,7 @@ namespace AntiCheat_Free_EdrenBaton
         public override string Prefix => "AntiCheat";
         public override string Name => "AntiCheat-Free-EdrenBaton";
         public override string Author => "Rysik5318";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 0, 1);
         public static Plugin plugin;
 
         private Handlers.Player.EventHandlers EventHandlers_Player;
@@ -18,6 +18,7 @@ namespace AntiCheat_Free_EdrenBaton
         {
             plugin = new Plugin();
             EventHandlers_Player = new();
+
             base.OnEnabled();
         }
         public override void OnDisabled()
