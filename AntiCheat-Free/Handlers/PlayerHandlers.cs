@@ -46,11 +46,7 @@ namespace AntiCheatFree.Handlers
 
             if (ev.Player.TryGetRaycast(out var hit))
             {
-                var name = hit.collider.gameObject.name.ToLower().Trim();
-
-                Log.Info(name);
-
-                ev.IsAllowed = hit.collider.gameObject.TryGetFromParent(obj => Door.Get(obj) == ev.Door) || _doorNames.Contains(name);
+                ev.IsAllowed = hit.collider.gameObject.TryGetFromParent(obj => Door.Get(obj) == ev.Door) || _doorNames.Contains(hit.collider.gameObject.name.ToLower().Trim());
             }
             else
             {
