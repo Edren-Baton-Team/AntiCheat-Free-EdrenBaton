@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiCheat-Free", "AntiCheat-Free\AntiCheat.csproj", "{4537947F-4B9E-45A3-9AEE-21E6EF2E4547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4537947F-4B9E-45A3-9AEE-21E6EF2E4547}.Debug|x64.ActiveCfg = Debug|x64
+		{4537947F-4B9E-45A3-9AEE-21E6EF2E4547}.Debug|x64.Build.0 = Debug|x64
+		{4537947F-4B9E-45A3-9AEE-21E6EF2E4547}.Release|x64.ActiveCfg = Release|x64
+		{4537947F-4B9E-45A3-9AEE-21E6EF2E4547}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D44EC376-90F9-4424-B0FB-800945A2B47A}
+	EndGlobalSection
+EndGlobal
